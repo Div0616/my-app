@@ -1,6 +1,5 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Link from 'react-router-dom/Link';
 export default function Navbar(props) {
   return (
         <nav className={`navbar navbar-${props.mode} bg-${props.mode}`}>
